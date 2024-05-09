@@ -13,7 +13,7 @@ import pandas as pd
 import random as rd
 import matplotlib.pyplot as plt
 
-def read_data(path="C:/Users/Fernando/Desktop/SCHOOL/PythonProjects/Final/2017_Crashes_10000_sample.csv",index="OBJECTID"):
+def read_data(path="2017_Crashes_10000_sample.csv",index="OBJECTID"):
     return pd.read_csv(path).set_index(index)
 
 
