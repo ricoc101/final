@@ -1,5 +1,5 @@
 streamlit
 pydeck
-random
+
 matplotlib
 pandas
